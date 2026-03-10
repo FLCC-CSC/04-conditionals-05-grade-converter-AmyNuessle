@@ -1,7 +1,7 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
+# NAME: Amy Nuessle
+# DATE: March 2, 2026
 # BRIEF DESCRIPTION:  
 
 
@@ -21,13 +21,13 @@ percent = int(input('Enter a numerical grade (1-100): '))
 
 if percent > 100:
     print('A+')
-elif percent >= 90:
+elif percent in range(90, 101):
     print('A')
-elif percent >= 80:
+elif percent in range(80, 90):
     print('B')
-elif percent >= 70:
+elif percent in range(70, 80):
     print('C')
-elif percent >= 65:
+elif percent in range(65, 70):
     print('D')
 else:
     print('F')
@@ -83,7 +83,7 @@ D
 '''
 
 1. What is something you would tell a future student to be careful about when
-   doing this lab?
+   doing this lab? to remember to use the range function for starting and stopping the number range
 
 
 
